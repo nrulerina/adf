@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "cars-etl-adf"
+		},
+		"OutputSQL_password": {
+			"value": ""
+		},
+		"inputBLOB_connectionString": {
+			"value": ""
+		},
+		"OutputSQL_properties_typeProperties_server": {
+			"value": "cars-sql.database.windows.net"
+		},
+		"OutputSQL_properties_typeProperties_database": {
+			"value": "cars-etl-databse"
+		},
+		"OutputSQL_properties_typeProperties_userName": {
+			"value": "admn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
