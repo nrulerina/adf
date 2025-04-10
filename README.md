@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a **parametrized pipeline in Azure Data Factory (ADF)** to move CSV data from Azure Blob Storage into an Azure SQL Database using a dynamic and reusable data flow.
 
-![Architecture](./Screenshot%202025-04-10%20140011.png)
+![Architecture](img/1.png)
 
 ---
 
