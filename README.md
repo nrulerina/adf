@@ -40,6 +40,9 @@ This solution ingests `.csv` files (`Cars.csv` and `Planes.csv`) stored in Azure
    - Writes the data to the correct SQL table.
 3. The same pipeline logic is reused for different datasets using different parameter values.
 
+### 🛠️ Pipeline Flow Diagram
+![Data Pipeline](img/pipeline-diagram.png)
+
 📌 Note: This project is part of my personal learning journey and was built by referring to a YouTube tutorial.
 Credit goes to the original creator for helping me understand Azure Data Factory concepts clearly.
 I highly recommend using YouTube as a powerful tool to explore cloud and data engineering skills.
